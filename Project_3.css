@@ -1,0 +1,35 @@
+body {
+    margin: var(--nav-width);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.nav {
+    position: absolute;
+    top: 10;
+    left: 20;
+    width: var(--nav-width);
+    height: 100;
+    background: black;
+}
+
+.nav__link {
+    display: block;
+    padding: 20px;
+    color: azure;
+    font-weight: 400;
+}
+
+.nav__link:hover {
+    background: white;
+}
+
+#app {
+    margin: 2in;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+a {
+    color: blue;
+}
